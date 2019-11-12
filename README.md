@@ -1,7 +1,7 @@
 
 ### teamviewer-support: A handy script for remote technical support using TeamViewer
 
-- Download file [teamviewer-support.bat](/innovarew/deploy/raw/master/teamviewer-support/teamviewer-support.bat)
+- Download file [teamviewer-support.bat](https://raw.githubusercontent.com/innovarew/teamviewer-support/master/teamviewer-support.bat )
 - Run (double-click) [teamviewer-support.bat](teamviewer-support.bat) to start a TeamViewer remote connection
 
 #### Usage
