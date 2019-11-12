@@ -3,7 +3,7 @@
 
 - Download file (View Raw)[teamviewer-support.bat](https://raw.githubusercontent.com/innovarew/teamviewer-support/master/teamviewer-support.bat)
 - Save as [teamviewer-support.bat](teamviewer-support.bat)
-- Run (double-click) [teamviewer-support.bat] to start a TeamViewer remote connection
+- Run (double-click) [teamviewer-support.bat](teamviewer-support.bat) to start a TeamViewer remote connection
 
 #### Usage
 
