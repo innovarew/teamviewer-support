@@ -35,7 +35,7 @@ set cwd=%~dp0
 set tv_bat=%cwd%\teamviewer-support.bat
 set tv_dir=%cwd%\TeamViewerPortable
 set tv_file=%cwd%\TeamViewerPortable.zip
-set tv_url=https://download.teamviewer.com/download/TeamViewerPortable.zip
+set tv_url=https://dl.teamviewer.com/download/TeamViewerPortable.zip
 
 :: Download TeamViewer
 cd %cwd%
