@@ -9,7 +9,7 @@
 
 ~~~
 # Fetch the teamviewer-support.bat file from PowerShell prompt
-C:\> iwr -outfile teamviewer-support.bat https://raw.githubusercontent.com/innovarew/teamviewer-support/master/teamviewer-support.bat # on powershell
+> iwr -outf teamviewer-support.bat https://raw.githubusercontent.com/innovarew/teamviewer-support/master/teamviewer-support.bat
 
 C:\> teamviewer-support.bat
 [*]
