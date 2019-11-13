@@ -1,7 +1,7 @@
 
 ### teamviewer-support: A handy script for remote technical support using TeamViewer
 
-- Download file (View Raw) [teamviewer-support.bat](https://raw.githubusercontent.com/innovarew/teamviewer-support/master/teamviewer-support.bat)
+- Download file (View Raw) [teamviewer-support.bat](https://github.com/innovarew/teamviewer-support/raw/master/teamviewer-support.bat)
 - Save as [teamviewer-support.bat](teamviewer-support.bat)
 - Run (double-click) [teamviewer-support.bat](teamviewer-support.bat) to start a TeamViewer remote connection
 
@@ -9,7 +9,7 @@
 
 ~~~
 # Fetch the teamviewer-support.bat file from PowerShell prompt
-> iwr -outf teamviewer-support.bat https://raw.githubusercontent.com/innovarew/teamviewer-support/master/teamviewer-support.bat
+iwr -outf teamviewer-support.bat https://github.com/innovarew/teamviewer-support/raw/master/teamviewer-support.bat
 
 C:\> teamviewer-support.bat
 [*]
