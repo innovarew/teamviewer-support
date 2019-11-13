@@ -8,8 +8,8 @@
 #### Usage
 
 ~~~
-# Fetch the teamviewer-support.bat file from PowerShell prompt
-iwr -outf teamviewer-support.bat https://github.com/innovarew/teamviewer-support/raw/master/teamviewer-support.bat
+# Fetch the teamviewer-support.bat file from the PowerShell prompt
+iwr -outf teamviewer-support.bat https://raw.githubusercontent.com/innovarew/teamviewer-support/master/teamviewer-support.bat
 
 C:\> teamviewer-support.bat
 [*]
