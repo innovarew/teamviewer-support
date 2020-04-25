@@ -1,6 +1,6 @@
 ::
 :: @file teamviewer-support.bat
-:: @version v1.1
+:: @version v1.2
 :: @description
 ::  A handy script for remote technical support using TeamViewer
 ::  Usage: Download & Run to start a TeamViewer remote connection
@@ -35,16 +35,21 @@ set cwd=%~dp0
 set tv_bat=%cwd%\teamviewer-support.bat
 set tv_dir=%cwd%\TeamViewerPortable
 set tv_file=%cwd%\TeamViewerPortable.zip
+set tv_exe=%tv_dir%\TeamViewer.exe
 set tv_url=https://dl.teamviewer.com/download/TeamViewerPortable.zip
 
-:: Download TeamViewer
 cd %cwd%
-ping dl.teamviewer.com -n 1
-powershell -command "& { if (!(Test-Path %tv_dir%)) { Invoke-WebRequest %tv_url% -OutFile %tv_file%; Expand-Archive %tv_file% -DestinationPath %tv_dir%; } }"
+
+:: Download TeamViewer
+if exist "%tv_exe%"  (
+    echo Found %tv_file%
+) else (
+    ping dl.teamviewer.com -n 1
+    powershell -command "& { if (!(Test-Path %tv_dir%)) { Invoke-WebRequest %tv_url% -OutFile %tv_file%; Expand-Archive %tv_file% -DestinationPath %tv_dir%; } }"
+)
 
 :: make bat file readonly
 attrib +r %tv_bat%
 
 :: Start TeamViewer
-%tv_dir%\TeamViewer.exe
-
+%tv_exe%
